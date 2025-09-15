@@ -56,7 +56,7 @@
     "@commitlint/types": "^19.0.3"
   },
   "devDependencies": {
-    "@types/node": "^22.5.0",
+    "@types/node": "^24.4.0",
     "@types/bun": "latest",
     "typescript": "^5.5.4"
   },
