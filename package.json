@@ -37,7 +37,7 @@
     "package": "tsc && bun package:copy-schema",
     "package:watch": "bun run package -- --watch",
     "test": "bun test",
-    "all": "bun run format:write && bun run lint && bun run test && bun run coverage && bun run package",
+    "all": "bun run format:write && bun run lint && bun run test && bun run package",
     "start": "node dist/index.js",
     "commit": "git add . && git commit -am 'chore: add dist action'",
     "push": "git push --follow-tags",
